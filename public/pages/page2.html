@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./public/css/app.css">
+    <link rel="stylesheet" href="../../public/css/app.css">
 </head>
-<body>
+<body class="bg-page2">
 
+    <div class="container2">
+        <input id="inputDtask" type="text" placeholder=" Add a task here and not anywhere else">
+        <button id="taskBtn">Add</button>
 
+        <div class="column" id="todo">
+            <h2>Todo</h2>
+            <ul id="todo-list" class="task-list">
+            </ul>
+        </div>
 
+        <div class="column" id="doing">
+            <h2>Doing</h2>
+            <ul id="doing-list" class="task-list">
+            </ul>
+        </div>
 
-
-
-
-
-    
-    <script src="./public/js/app.js"></script>
+        <div class="column" id="done">
+            <h2>Done</h2>
+            <ul id="done-list" class="task-list">
+            </ul>
+        </div>
+    </div>
+    <script src="../js/app2.js"></script>
 </body>
 </html>

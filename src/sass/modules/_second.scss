@@ -1,0 +1,62 @@
+$prp: #580f73;
+$mauve: #ef16ff;
+
+.bg-page2 {
+    background-image: linear-gradient(to left, $prp, $mauve);
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, $mauve, $prp);
+    padding: 20px;
+
+    input {
+        height: 50px;
+        margin-bottom: 15px;
+        padding: 5px;
+        width: 350px;
+        border: $mauve solid 5px;
+    }
+
+    button {
+        height: 35px;
+        width: 120px;
+        background-color: $mauve;
+        color: #ffcbcb;
+        border: white solid 2px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .column {
+        margin: 20px 0;
+        width: 100px;
+        background-color: #ff34eb;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        h2 {
+            margin: 0;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .task-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 10px 0;
+
+            li {
+                padding: 10px;
+                border-radius: 4px;
+                background-color: #f2f2f2;
+                margin-bottom: 5px;
+                border: 1px solid #ccc;
+            }
+        }
+    }
+}

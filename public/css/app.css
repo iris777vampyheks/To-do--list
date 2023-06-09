@@ -4,6 +4,7 @@
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import "../../public/css/app.css";
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -11908,7 +11909,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
+.indx-bg {
   background-image: url(../../../public/img/school-lies-pink-background-with-copy-space-back-school-concept_106006-6302.avif);
   background-size: 90%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
@@ -11979,4 +11980,58 @@ body {
 }
 .task-item .btn.uncomplete-btn {
   background-color: #e100e1;
+}
+
+.bg-page2 {
+  background-image: linear-gradient(to left, #580f73, #ef16ff);
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #ef16ff, #580f73);
+  padding: 20px;
+}
+.container2 input {
+  height: 50px;
+  margin-bottom: 15px;
+  padding: 5px;
+  width: 350px;
+  border: #ef16ff solid 5px;
+}
+.container2 button {
+  height: 35px;
+  width: 120px;
+  background-color: #ef16ff;
+  color: #ffcbcb;
+  border: white solid 2px;
+  color: white;
+  cursor: pointer;
+}
+.container2 .column {
+  margin: 20px 0;
+  width: 100px;
+  background-color: #ff34eb;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.container2 .column h2, .container2 .column .h2 {
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.container2 .column .task-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+.container2 .column .task-list li {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
 }
