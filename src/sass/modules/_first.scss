@@ -1,12 +1,11 @@
 body {
-    background-image: url(../../../public/img/3d-white-clipboard-task-management-todo-check-list-efficient-work-project-plan-fast-progress-level-up-concept-assignment-exam-document-cloud-icon-3d-vector-render-cloud-background_41282.avif);
+    background-image: url(../../../public/img/school-lies-pink-background-with-copy-space-back-school-concept_106006-6302.avif);
     background-size: 90%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
 .container {
-    margin-top: 7px;
+    margin-top: 20px;
 
     .input-group {
         display: flex;
@@ -14,97 +13,70 @@ body {
 
         .form-control {
             margin-right: 10px;
-            border-color: $zra9;
+            border: 2px solid #e100e1;
             border-radius: 5px;
-
-            &:focus {
-                outline: none;
-                box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-                border-color: $zra9;
-            }
+            padding: 8px;
         }
 
-        .btn-primary {
-            width: 120px;
-            font-size: 20px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            background-color: $zra9;
-            border-color: $zra9;
-            border-radius: 7px;
+        .input-group-append {
+            height: 55px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
-            &:hover,
-            &:focus {
-                background-color: darken($zra9, 10%);
-                border-color: darken($zra9, 10%);
+            .btn-primary {
+                padding: 12px 20px;
+                border: none;
+                width: 120px;
+                height: 60px;
+                background-color: #e100e1;
+                color: #d7a3f3;
+                font-size: 19px;
+                border-radius: 8px;
             }
         }
-    }
-
-    #filter-select {
-        margin-top: 10px;
-    }
-
-    #task-list {
-        margin-top: 10px;
     }
 }
 
 .task-item {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    align-items: center;
+    padding: 20px;
     margin-bottom: 10px;
-    border: 3px solid #e058ffc6;
-    border-radius: 7px;
+    border: 3px solid #e100e1;
+    border-radius: 17px;
 
     &.completed {
-        background-color: #1eff1e;
+        background-color: #1eff1ea2;
     }
 
     .task-text {
-        color: white;
         flex-grow: 1;
+        text-align: center;
+        font-size: 17px;
+        color: rgba(12, 10, 10, 0.737);
         margin-right: 10px;
     }
 
     .btn {
         border-radius: 8px;
-        width: 110px;
-        height: 44px;
+        padding: 10px 20px;
+        border: none;
+        color: #fff;
+        font-size: 14px;
         margin-right: 10px;
 
         &.complete-btn {
-            background-color: $lkhdar;
-            border-color: $lkhdar;
-
-            &:hover,
-            &:focus {
-                background-color: darken($lkhdar, 10%);
-                border-color: darken($lkhdar, 10%);
-            }
+            background-color: #41b883;
         }
 
         &.delete-btn {
-            background-color: $l7mar;
-            border-color: $l7mar;
-
-            &:hover,
-            &:focus {
-                background-color: darken($l7mar, 10%);
-                border-color: darken($l7mar, 10%);
-            }
+            background-color: #e64759;
         }
 
         &.uncomplete-btn {
-            background-color: $zra9;
-            border-color: $zra9;
-
-            &:hover,
-            &:focus {
-                background-color: darken($zra9, 10%);
-                border-color: darken($zra9, 10%);
-            }
+            background-color: #e100e1;
         }
     }
 }
