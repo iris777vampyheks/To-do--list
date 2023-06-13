@@ -1,0 +1,65 @@
+$prp: #2770c9;
+$mauve: #16c2cb;
+
+.bg-page-tania {
+    background-image: url(../../../public/img/30.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+    input {
+        height: 50px;
+        margin-bottom: 15px;
+        padding: 5px;
+        width: 350px;
+        border: #f3bba2 solid 5px;
+        border-radius: 9px;
+    }
+
+    button {
+        height: 35px;
+        width: 120px;
+        background-color: #ffc1a2;
+        color: #ffcbcb;
+        border: rgb(246, 147, 147) solid 2px;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .column {
+        margin: 19px 0;
+        width: 140px;
+        background-color: #17adbe;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        h2 {
+            margin: 0;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .task-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 10px 0;
+
+            li {
+                padding: 10px;
+                border-radius: 4px;
+                background-color: #f2f2f2;
+                margin-bottom: 5px;
+                border: 1px solid #ccc;
+            }
+        }
+    }
+}

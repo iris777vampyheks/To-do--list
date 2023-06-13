@@ -1,81 +1,26 @@
-.indx-bg {
-    background-image: url(../../../public/img/school-lies-pink-background-with-copy-space-back-school-concept_106006-6302.avif);
-    background-size: 90%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.body1{
+    background-image: url(../../../public/img/liquid-purple-art-painting-abstract-colorful-background-with-color-splash-paints-modern-art.jpg);
+    background-size: cover;
 }
-.container {
-    margin-top: 20px;
-
-    .input-group {
-        display: flex;
-        justify-content: center;
-
-        .form-control {
-            margin-right: 10px;
-            border: 2px solid #e100e1;
-            border-radius: 5px;
-            padding: 8px;
-        }
-
-        .input-group-append {
-            height: 55px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            .btn-primary {
-                padding: 12px 20px;
-                border: none;
-                width: 120px;
-                height: 60px;
-                background-color: #e100e1;
-                color: #d7a3f3;
-                font-size: 19px;
-                border-radius: 8px;
-            }
-        }
-    }
-}
-
-.task-item {
+.button-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 20px;
-    margin-bottom: 10px;
-    border: 3px solid #e100e1;
-    border-radius: 17px;
+    margin-top: 44px;
+}
 
-    &.completed {
-        background-color: #1eff1ea2;
-    }
-
-    .task-text {
-        flex-grow: 1;
-        text-align: center;
-        font-size: 17px;
-        color: rgba(12, 10, 10, 0.737);
-        margin-right: 10px;
-    }
-
-    .btn {
-        border-radius: 8px;
-        padding: 10px 20px;
-        border: none;
-        color: #fff;
-        font-size: 14px;
-        margin-right: 10px;
-
-        &.complete-btn {
-            background-color: #41b883;
-        }
-
-        &.delete-btn {
-            background-color: #e64759;
-        }
-
-        &.uncomplete-btn {
-            background-color: #e100e1;
-        }
+.button-3d {
+    margin: 0 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #FF69B4;
+    color: #fff;
+    border: none;
+    box-shadow: 2px 2px 5px #ed7979;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        transform: translateZ(5px);
+        background-color: rgba(206, 45, 221, 0.848);
     }
 }

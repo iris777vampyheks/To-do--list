@@ -11909,10 +11909,75 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.indx-bg {
-  background-image: url(../../../public/img/school-lies-pink-background-with-copy-space-back-school-concept_106006-6302.avif);
-  background-size: 90%;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+.body1 {
+  background-image: url(../../../public/img/liquid-purple-art-painting-abstract-colorful-background-with-color-splash-paints-modern-art.jpg);
+  background-size: cover;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 44px;
+}
+
+.button-3d {
+  margin: 0 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #FF69B4;
+  color: #fff;
+  border: none;
+  box-shadow: 2px 2px 5px #ed7979;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.button-3d:hover {
+  transform: translateZ(5px);
+  background-color: rgba(206, 45, 221, 0.848);
+}
+
+.secondbg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1; /* Move the video behind other elements */
+}
+
+.secondbg video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+#linki {
+  margin-left: 45%;
+  margin-top: 44px;
+  background-color: #9370DB;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #888888;
+}
+#linki:hover {
+  background-color: #7B68EE;
+}
+#linki a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .container {
@@ -11958,10 +12023,12 @@ textarea.form-control-lg {
   background-color: rgba(30, 255, 30, 0.6352941176);
 }
 .task-item .task-text {
+  margin-bottom: 20px;
   flex-grow: 1;
   text-align: center;
   font-size: 17px;
-  color: rgba(12, 10, 10, 0.737);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
   margin-right: 10px;
 }
 .task-item .btn {
@@ -11974,6 +12041,7 @@ textarea.form-control-lg {
 }
 .task-item .btn.complete-btn {
   background-color: #41b883;
+  margin-left: 110px;
 }
 .task-item .btn.delete-btn {
   background-color: #e64759;
@@ -11982,8 +12050,10 @@ textarea.form-control-lg {
   background-color: #e100e1;
 }
 
-.bg-page2 {
-  background-image: linear-gradient(to left, #580f73, #ef16ff);
+.bg-page-tania {
+  background-image: url(../../../public/img/30.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .container2 {
@@ -11991,7 +12061,6 @@ textarea.form-control-lg {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(to right, #ef16ff, #580f73);
   padding: 20px;
 }
 .container2 input {
@@ -11999,21 +12068,23 @@ textarea.form-control-lg {
   margin-bottom: 15px;
   padding: 5px;
   width: 350px;
-  border: #ef16ff solid 5px;
+  border: #f3bba2 solid 5px;
+  border-radius: 9px;
 }
 .container2 button {
   height: 35px;
   width: 120px;
-  background-color: #ef16ff;
+  background-color: #ffc1a2;
   color: #ffcbcb;
-  border: white solid 2px;
+  border: rgb(246, 147, 147) solid 2px;
+  border-radius: 10px;
   color: white;
   cursor: pointer;
 }
 .container2 .column {
-  margin: 20px 0;
+  margin: 19px 0;
   width: 140px;
-  background-color: #ff34eb;
+  background-color: #17adbe;
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

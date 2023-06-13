@@ -17,7 +17,8 @@ taskBtn.addEventListener('click', () => {
     // create icons
     let deleteIcon = document.createElement('span');
     deleteIcon.classList.add('icon');
-    deleteIcon.textContent = '❌';
+    deleteIcon.textContent = ' ⌫';
+    deleteIcon.style.cursor = 'pointer'; // add this line
     deleteIcon.addEventListener('click', () => {
         newTaskItem.remove();
     });
@@ -25,6 +26,7 @@ taskBtn.addEventListener('click', () => {
     let editeicon = document.createElement('span');
     editeicon.classList.add('icon');
     editeicon.textContent = '✎';
+    editeicon.style.cursor = 'pointer';
     editeicon.addEventListener('click', () => {
         let updatedTaskText = prompt('Edit the task');
         newTaskItem.textContent = updatedTaskText;
